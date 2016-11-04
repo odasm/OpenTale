@@ -22,7 +22,7 @@ The aim of this Client is to bring a Wirkung NosTale Client to Non-Windows platf
 ### 0.0.4
 * Decryption support for .NOS archives
 ### 0.0.5
-* Move from the parially Headless Client to a fully featured GUI
+* Move from the parially Headless Client to a fully featured 3D GUI
 * Implement basic Overlay GUI
 ### 0.0.6
 * Expand Map Renderer to display Assets
