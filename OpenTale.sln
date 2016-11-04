@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTale.Crypto", "OpenTale.Crypto\OpenTale.Crypto.csproj", "{AF3B2EC8-2204-4BBD-925C-21F71650861E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8ECD9C63-489D-401B-98A2-6D5B965D37E4}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTale.Client.Console", "OpenTale.Client.Console\OpenTale.Client.Console.csproj", "{53D53F52-F9D9-4CEB-824C-093E60F39629}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTale.Client", "OpenTale.Client\OpenTale.Client.csproj", "{C4D4C0D2-3252-473F-8BA6-B8AEEAFBDD95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTale.Net", "OpenTale.Net\OpenTale.Net.csproj", "{38BFDE6C-72B3-4D45-9514-E04AA86EDF61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTale.Handler", "OpenTale.Handler\OpenTale.Handler.csproj", "{50739DB6-A6F2-41A7-9273-7F79CF0946DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF3B2EC8-2204-4BBD-925C-21F71650861E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF3B2EC8-2204-4BBD-925C-21F71650861E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF3B2EC8-2204-4BBD-925C-21F71650861E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF3B2EC8-2204-4BBD-925C-21F71650861E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53D53F52-F9D9-4CEB-824C-093E60F39629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53D53F52-F9D9-4CEB-824C-093E60F39629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53D53F52-F9D9-4CEB-824C-093E60F39629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53D53F52-F9D9-4CEB-824C-093E60F39629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4D4C0D2-3252-473F-8BA6-B8AEEAFBDD95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4D4C0D2-3252-473F-8BA6-B8AEEAFBDD95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4D4C0D2-3252-473F-8BA6-B8AEEAFBDD95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4D4C0D2-3252-473F-8BA6-B8AEEAFBDD95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38BFDE6C-72B3-4D45-9514-E04AA86EDF61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38BFDE6C-72B3-4D45-9514-E04AA86EDF61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38BFDE6C-72B3-4D45-9514-E04AA86EDF61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38BFDE6C-72B3-4D45-9514-E04AA86EDF61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50739DB6-A6F2-41A7-9273-7F79CF0946DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50739DB6-A6F2-41A7-9273-7F79CF0946DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50739DB6-A6F2-41A7-9273-7F79CF0946DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50739DB6-A6F2-41A7-9273-7F79CF0946DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
