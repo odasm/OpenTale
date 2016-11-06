@@ -4,7 +4,7 @@ This repo will hold an Open Source Rewrite of the NosTale Client.
 
 For now, proper handling of Packets is the main goal of this project. After we have finished the emulation of the current official feature set, we plan to implement a GUI and work on it. The client will use Unity3D as Graphic Engine
 
-The aim of this Client is to bring a Wirkung NosTale Client to Non-Windows platforms and to probably even bring it to mobile devices(although there's no plan for it for now). It will make it possible to play the game on Linux and Mac OS X without Lags in DirectX and graphic Glitches in OGL.
+The aim of this Client is to bring a working NosTale Client to Non-Windows platforms and to probably even bring it to mobile devices(although there's no plan for it for now). It will make it possible to play the game on Linux and Mac OS X without Lags in DirectX and graphic Glitches in OGL.
 
 ## Roadmap
 ### 0.0.1
