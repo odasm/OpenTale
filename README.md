@@ -11,33 +11,44 @@ The aim of this Client is to bring a Wirkung NosTale Client to Non-Windows platf
 * NetCode implementation for Login
 * Crypto for both, Login and World
 * File-based Configuration System
+
 ### 0.0.2
 * Basic World NetCode implementation
 * Simple Map Rendering in Window(Walkable/Non-Walkable areas)
 * Load Client Version and Hashes from Official Client
+
 ### 0.0.3
 * Extended Map Rendering(Monsters, Friends, Family, Group...)
 * Walk using rendered Map
 * Complete World Packet Handling
+
 ### 0.0.4
 * Decryption support for .NOS archives
+
 ### 0.0.5
 * Move from the parially Headless Client to a fully featured 3D GUI
 * Implement basic Overlay GUI
+
 ### 0.0.6
 * Expand Map Renderer to display Assets
+
 ### 0.0.7
 * Entity Rendering
+
 ### 0.0.8
 * Skill Rendering
+
 ### 0.0.9
 * Launcher containing a Patch Utility based on libgamepatch
+
 ### 0.1.0
 * Optimization
 * First official prebuilt-release
 * Contains all features to play most parts of the game
+
 ### 0.1.1
 * Minigames
+
 ### 0.1.2
 * to be continued
 
