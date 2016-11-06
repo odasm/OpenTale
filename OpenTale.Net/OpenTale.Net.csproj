@@ -45,6 +45,16 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WorldClient.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OpenTale.Crypto\OpenTale.Crypto.csproj">
+      <Project>{af3b2ec8-2204-4bbd-925c-21f71650861e}</Project>
+      <Name>OpenTale.Crypto</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenTale.Handler\OpenTale.Handler.csproj">
+      <Project>{50739db6-a6f2-41a7-9273-7f79cf0946dd}</Project>
+      <Name>OpenTale.Handler</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
