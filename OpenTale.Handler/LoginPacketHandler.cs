@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace OpenTale.Handler
 {
-    public static class LoginPacketHandler
+    public class LoginPacketHandler
     {
-        public static void HandlePacket(string packet)
+        public void HandlePacket(string packet)
         {
             if (packet.StartsWith("NsTeST"))
             {
@@ -22,9 +22,9 @@ namespace OpenTale.Handler
         }
 
         //NsTeST [SESSION] [IP]:[PORT]:[LOAD]:[SERVER].[CHANNEL].[NAME]
-        private static void HandleNsTeST(string packet)
+        public virtual void HandleNsTeST(string packet)
         {
-#warning TODO: Implement proper handling
+            //do nothing
         }
     }
 }

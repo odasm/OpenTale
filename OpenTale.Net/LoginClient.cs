@@ -16,10 +16,11 @@ namespace OpenTale.Net
         IAsyncResult m_result;
         IPAddress _loginIP;
         int _loginPort = 0;
+        LoginPacketHandler _handler;
         public AsyncCallback m_pfnCallBack;
         public Socket m_clientSocket;
 
-        public LoginClient(string loginIP, int loginPort)
+        public LoginClient(string loginIP, int loginPort, LoginPacketHandler handler)
         {
             if ((String.IsNullOrWhiteSpace(loginIP)))
             {
@@ -31,6 +32,11 @@ namespace OpenTale.Net
                 throw new ArgumentNullException("loginPort", "Parameter not set");
             }
             _loginPort = loginPort;
+            if (handler != null)
+            {
+                throw new ArgumentNullException("handler", "Parameter not set");
+            }
+            _handler = handler;
         }
 
 
@@ -50,7 +56,7 @@ namespace OpenTale.Net
                 WaitForData();
             }
         }
-        //NsTeST [SESSION] 134.255.238.79:1337:1:1.1.S1-OpenNos
+
         public void Login(string userName, string password)
         {
             Random r = new Random();
@@ -102,7 +108,7 @@ namespace OpenTale.Net
 
             string szData = LoginCrypto.LoginDecrypt(theSockId.dataBuffer, iRx);
 
-            LoginPacketHandler.HandlePacket(szData);
+            _handler.HandlePacket(szData);
 
             Disconnect();
         }
