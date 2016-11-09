@@ -16,5 +16,12 @@ namespace OpenTale.Client
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Forms.Login loginForm = new Forms.Login();
+            loginForm.ShowDialog();
+        }
     }
 }

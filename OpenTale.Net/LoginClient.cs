@@ -32,7 +32,7 @@ namespace OpenTale.Net
                 throw new ArgumentNullException("loginPort", "Parameter not set");
             }
             _loginPort = loginPort;
-            if (handler != null)
+            if (handler == null)
             {
                 throw new ArgumentNullException("handler", "Parameter not set");
             }

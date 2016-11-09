@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTale.Net", "OpenTale.Ne
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTale.Handler", "OpenTale.Handler\OpenTale.Handler.csproj", "{50739DB6-A6F2-41A7-9273-7F79CF0946DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTale.GameObject", "OpenTale.GameObject\OpenTale.GameObject.csproj", "{DDBB5B84-4791-4ADA-BAD7-AD4005607412}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +46,10 @@ Global
 		{50739DB6-A6F2-41A7-9273-7F79CF0946DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50739DB6-A6F2-41A7-9273-7F79CF0946DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50739DB6-A6F2-41A7-9273-7F79CF0946DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDBB5B84-4791-4ADA-BAD7-AD4005607412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDBB5B84-4791-4ADA-BAD7-AD4005607412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDBB5B84-4791-4ADA-BAD7-AD4005607412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDBB5B84-4791-4ADA-BAD7-AD4005607412}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -84,6 +84,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Entry.resx">
+      <DependentUpon>Entry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -105,6 +111,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OpenTale.GameObject\OpenTale.GameObject.csproj">
+      <Project>{DDBB5B84-4791-4ADA-BAD7-AD4005607412}</Project>
+      <Name>OpenTale.GameObject</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenTale.Handler\OpenTale.Handler.csproj">
+      <Project>{50739db6-a6f2-41a7-9273-7f79cf0946dd}</Project>
+      <Name>OpenTale.Handler</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenTale.Net\OpenTale.Net.csproj">
+      <Project>{38bfde6c-72b3-4d45-9514-e04aa86edf61}</Project>
+      <Name>OpenTale.Net</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
