@@ -20,5 +20,10 @@ namespace OpenTale.GameObject.Net
             Port = port;
             Load = load;
         }
+        public override string ToString()
+        {
+            return string.Format("Channel {0}", ID);
+
+        }
     }
 }

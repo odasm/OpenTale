@@ -23,5 +23,11 @@ namespace OpenTale.GameObject.Net
         {
             Channels.Add(new Channel(id, ip, port, load));
         }
+
+        public override string ToString()
+        {
+            return string.Format(Name);
+
+        }
     }
 }

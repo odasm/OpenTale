@@ -39,7 +39,10 @@ namespace OpenTale.Client.Forms
                 }
             }
             loggedIn = true;
-            //Do Stuff here
+
+            ChannelSelection csel = new ChannelSelection(handler.Servers);
+            csel.Show();
+            this.Close();
         }
 
         private void Login_FormClosed(object sender, FormClosedEventArgs e)
